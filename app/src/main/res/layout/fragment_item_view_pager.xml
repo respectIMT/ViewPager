@@ -1,0 +1,43 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="uz.fragmenta.ItemViewPager">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangle"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:textColor="@color/white"
+
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="250dp"
+            android:gravity="center"
+            android:text="Xush kelibsiz!!!"
+            android:textSize="30sp" />
+
+        <TextView
+            android:textColor="@color/white"
+
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/kim_ko_rubdur_ey_ko_ngul_ahli_jahondinyaxshilig_kimki_ondin_yaxshi_yo_q_ko_z_tutma_ondin_yaxshilig"
+            android:textSize="15sp"/>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
